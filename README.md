@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-hero-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-hero-light.png">
-  <img alt="xqe-bkflda — 给 AI Agent 装上手脚" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-hero-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-hero-light.png">
+  <img alt="xqe-bkflda — 给 AI Agent 装上手脚" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-hero-light.png" width="100%">
 </picture>
 
 <br>
@@ -16,11 +16,11 @@
 
 ### 主要项目
 
-<a href="https://github.com/xqe-bkflda/dshgo-vmbridge"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-card-vmbridge.png" width="49%" alt="dshgo-vmbridge"></a> <a href="https://github.com/xqe-bkflda/dshgo-ego-remote"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-card-ego-remote.png" width="49%" alt="dshgo-ego-remote"></a>
+<a href="https://github.com/xqe-bkflda/dshgo-vmbridge"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-card-vmbridge.png" width="49%" alt="dshgo-vmbridge"></a> <a href="https://github.com/xqe-bkflda/dshgo-ego-remote"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-card-ego-remote.png" width="49%" alt="dshgo-ego-remote"></a>
 
-<a href="https://github.com/xqe-bkflda/dshgo-dir-share"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-card-dir-share.png" width="49%" alt="dshgo-dir-share"></a> <a href="https://github.com/xqe-bkflda/netspeed"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-card-netspeed.png" width="49%" alt="netspeed"></a>
+<a href="https://github.com/xqe-bkflda/dshgo-dir-share"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-card-dir-share.png" width="49%" alt="dshgo-dir-share"></a> <a href="https://github.com/xqe-bkflda/netspeed"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-card-netspeed.png" width="49%" alt="netspeed"></a>
 
-<a href="https://github.com/xqe-bkflda/aplayer-custom"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-card-aplayer.png" width="49%" alt="aplayer-custom"></a> <a href="https://github.com/xqe-bkflda/dsh-go-market"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-card-market.png" width="49%" alt="dsh-go-market"></a>
+<a href="https://github.com/xqe-bkflda/aplayer-custom"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-card-aplayer.png" width="49%" alt="aplayer-custom"></a> <a href="https://github.com/xqe-bkflda/dsh-go-market"><img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-card-market.png" width="49%" alt="dsh-go-market"></a>
 
 ---
 
@@ -74,5 +74,5 @@ curl -fsSL https://raw.githubusercontent.com/xqe-bkflda/dshgo-dir-share/main/ins
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/p-avatar.png" width="72" alt="xqe-bkflda">
+  <img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@7a42160/assets/p-avatar.png" width="72" alt="xqe-bkflda">
 </p>
