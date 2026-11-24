@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png">
-  <img alt="xqe-bkflda — 给 AI Agent 装上手脚" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/hero-light.png">
+  <img alt="xqe-bkflda — 给 AI Agent 装上手脚" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/hero-light.png" width="100%">
 </picture>
 
 <br>
