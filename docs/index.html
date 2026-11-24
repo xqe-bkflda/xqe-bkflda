@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>xqe-bkflda</title>
+<meta name="description" content="xqe-bkflda">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+<style>
+:root{
+  --pink:#f08fb0; --pink-2:#fbc4d6; --pink-3:#ffe1ea; --rose:#f06c93;
+  --ink:#52333f; --sub:#a6798a; --line:#f7d3e0;
+  --bg-a:#fff5f8; --bg-b:#ffe9f1; --bg-c:#fff;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --pink:#f8a2c0; --pink-2:#e77fa4; --pink-3:#7a4560; --rose:#f888ae;
+    --ink:#fdeef4; --sub:#c495a6; --line:#4a303c;
+    --bg-a:#231821; --bg-b:#2e1f29; --bg-c:#1b1219;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  display:grid;place-items:center;overflow:hidden;
+  background:radial-gradient(120% 120% at 20% 10%,var(--bg-b),var(--bg-a) 45%,var(--bg-c));
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
+  color:var(--ink);
+  -webkit-tap-highlight-color:transparent;
+}
+/* ---------- ambient layer ---------- */
+.blob{position:fixed;z-index:0;border-radius:50%;filter:blur(60px);opacity:.55;pointer-events:none;
+  animation:drift 18s ease-in-out infinite alternate}
+.b1{width:52vmax;height:52vmax;left:-14vmax;top:-16vmax;background:var(--pink-2)}
+.b2{width:42vmax;height:42vmax;right:-12vmax;bottom:-14vmax;background:var(--pink-3);animation-delay:-6s}
+.b3{width:28vmax;height:28vmax;left:44%;bottom:-10vmax;background:var(--pink);opacity:.22;animation-delay:-11s}
+@keyframes drift{
+  0%{transform:translate3d(0,0,0) scale(1)}
+  100%{transform:translate3d(4vmax,-3vmax,0) scale(1.14)}
+}
+/* ---------- petals ---------- */
+.petals{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:1}
+.petal{position:absolute;top:-8vh;opacity:0;will-change:transform;
+  animation:fall linear infinite}
+.petal svg{display:block;filter:drop-shadow(0 2px 6px rgba(240,140,170,.28))}
+@keyframes fall{
+  0%{transform:translate3d(0,-10vh,0) rotate(0deg);opacity:0}
+  8%{opacity:.85}
+  92%{opacity:.85}
+  100%{transform:translate3d(var(--dx,0),110vh,0) rotate(var(--rot,320deg));opacity:0}
+}
+/* ---------- card ---------- */
+.stage{position:relative;z-index:2;text-align:center;padding:0 24px}
+.avatar{
+  width:132px;height:132px;border-radius:50%;margin:0 auto 30px;
+  background:linear-gradient(135deg,var(--pink),var(--pink-2));
+  padding:4px;box-shadow:0 18px 46px -18px rgba(240,108,147,.7);
+  animation:breathe 5s ease-in-out infinite;
+}
+.avatar img{width:100%;height:100%;border-radius:50%;display:block;object-fit:cover;background:var(--bg-a)}
+@keyframes breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-7px) scale(1.022)}}
+
+h1{
+  font-size:clamp(46px,11vw,104px);font-weight:800;letter-spacing:-.02em;line-height:1.06;
+  background:linear-gradient(100deg,var(--ink) 0%,var(--rose) 28%,var(--pink) 50%,var(--rose) 72%,var(--ink) 100%);
+  background-size:220% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:shine 7s linear infinite;
+}
+@keyframes shine{to{background-position:280% 0}}
+
+.cursor{
+  display:inline-block;width:.06em;height:.92em;vertical-align:-.08em;
+  background:var(--rose);margin-left:.06em;border-radius:2px;
+  animation:blink 1.05s step-end infinite;
+}
+@keyframes blink{0%,58%{opacity:1}59%,100%{opacity:0}}
+
+.rule{
+  width:0;height:3px;margin:34px auto 0;border-radius:2px;
+  background:linear-gradient(90deg,transparent,var(--pink),transparent);
+  animation:grow 1.5s cubic-bezier(.16,1,.3,1) .45s forwards;
+}
+@keyframes grow{to{width:min(320px,58vw)}}
+
+.links{
+  display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:38px;
+  opacity:0;animation:rise .9s cubic-bezier(.16,1,.3,1) .8s forwards;
+}
+.links a{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:999px;font-size:15px;font-weight:600;
+  text-decoration:none;color:var(--ink);border:1.5px solid var(--line);
+  background:color-mix(in srgb,var(--bg-c) 62%,transparent);
+  backdrop-filter:blur(10px);transition:.28s cubic-bezier(.16,1,.3,1);
+}
+.links a:hover,.links a:focus-visible{
+  transform:translateY(-3px);border-color:var(--pink);
+  box-shadow:0 14px 30px -14px rgba(240,108,147,.75);outline:none;
+}
+@keyframes rise{from{transform:translateY(16px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+.heart{position:fixed;z-index:2;right:5vw;bottom:6vh;font-size:0;pointer-events:none}
+.heart svg{animation:pulse 3.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.14);opacity:.9}}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition:none!important}
+  .petals{display:none}
+  .rule{width:min(320px,58vw)}
+  .links{opacity:1}
+}
+</style>
+</head>
+<body>
+
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+<div class="blob b3"></div>
+<div class="petals" id="petals"></div>
+
+<main class="stage">
+  <div class="avatar">
+    <img src="avatar.png" alt="">
+  </div>
+  <h1><span id="name"></span><i class="cursor"></i></h1>
+  <div class="rule"></div>
+  <nav class="links">
+    <a href="https://github.com/xqe-bkflda">GitHub</a>
+    <a href="https://github.com/xqe-bkflda?tab=repositories">仓库</a>
+    <a href="mailto:">找她</a>
+  </nav>
+</main>
+
+<div class="heart">
+  <svg width="86" height="86" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+    <path d="M50 86S14 62 14 38c0-13 10-23 22-23 8 0 12 4 14 8 2-4 6-8 14-8 12 0 22 10 22 23 0 24-36 48-36 48z"
+      fill="currentColor" style="color:var(--pink)"/>
+  </svg>
+</div>
+
+<script>
+/* type the name in, one char at a time */
+const NAME = 'xqe-bkflda';
+const out = document.getElementById('name');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (reduce) {
+  out.textContent = NAME;
+} else {
+  let i = 0;
+  (function tick(){
+    out.textContent = NAME.slice(0, ++i);
+    if (i < NAME.length) setTimeout(tick, 95 + Math.random() * 70);
+  })();
+}
+
+/* falling petals — count scales with viewport, capped so phones stay smooth */
+const petalLayer = document.getElementById('petals');
+const PETAL = (hue) => `
+<svg width="28" height="28" viewBox="0 0 32 32">
+  <g fill="hsl(${hue} 88% 82%)">
+    <ellipse cx="16" cy="8" rx="5.4" ry="8.6"/>
+    <ellipse cx="16" cy="8" rx="5.4" ry="8.6" transform="rotate(72 16 16)"/>
+    <ellipse cx="16" cy="8" rx="5.4" ry="8.6" transform="rotate(144 16 16)"/>
+    <ellipse cx="16" cy="8" rx="5.4" ry="8.6" transform="rotate(216 16 16)"/>
+    <ellipse cx="16" cy="8" rx="5.4" ry="8.6" transform="rotate(288 16 16)"/>
+  </g>
+  <circle cx="16" cy="16" r="4.4" fill="hsl(${hue + 8} 70% 68%)"/>
+</svg>`;
+if (!reduce) {
+  const n = Math.min(22, Math.round(innerWidth / 78));
+  for (let i = 0; i < n; i++) {
+    const p = document.createElement('div');
+    p.className = 'petal';
+    const size = 18 + Math.random() * 22;
+    p.innerHTML = PETAL(330 + Math.random() * 30);
+    p.style.left = Math.random() * 100 + 'vw';
+    p.style.setProperty('--dx', (Math.random() * 26 - 13) + 'vw');
+    p.style.setProperty('--rot', (Math.random() * 520 - 260) + 'deg');
+    p.style.animationDuration = (11 + Math.random() * 12) + 's';
+    p.style.animationDelay = (-Math.random() * 22) + 's';
+    p.querySelector('svg').setAttribute('width', size);
+    p.querySelector('svg').setAttribute('height', size);
+    petalLayer.appendChild(p);
+  }
+}
+
+/* gentle parallax on pointer move (skipped on touch) */
+if (!reduce && matchMedia('(hover:hover)').matches) {
+  const stage = document.querySelector('.stage');
+  addEventListener('pointermove', (e) => {
+    const x = (e.clientX / innerWidth - .5) * 14;
+    const y = (e.clientY / innerHeight - .5) * 14;
+    stage.style.transform = `translate3d(${x}px,${y}px,0)`;
+  }, {passive:true});
+}
+</script>
+</body>
+</html>
