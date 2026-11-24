@@ -7,6 +7,16 @@
 <meta name="description" content="xqe-bkflda">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
 <style>
+@font-face{
+  font-family:'Quicksand';
+  src:url('fonts/quicksand-latin-700-normal.woff2') format('woff2');
+  font-weight:700;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Quicksand';
+  src:url('fonts/quicksand-latin-500-normal.woff2') format('woff2');
+  font-weight:500;font-style:normal;font-display:swap;
+}
 :root{
   --pink:#f08fb0; --pink-2:#fbc4d6; --pink-3:#ffe1ea; --rose:#f06c93;
   --ink:#52333f; --sub:#a6798a; --line:#f7d3e0;
@@ -24,7 +34,7 @@ html,body{height:100%}
 body{
   display:grid;place-items:center;overflow:hidden;
   background:radial-gradient(120% 120% at 20% 10%,var(--bg-b),var(--bg-a) 45%,var(--bg-c));
-  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
+  font-family:"Quicksand","PingFang SC","HarmonyOS Sans SC","MiSans","Hiragino Sans GB","Source Han Sans SC","Noto Sans CJK SC","Microsoft YaHei",system-ui,sans-serif;
   color:var(--ink);
   -webkit-tap-highlight-color:transparent;
 }
@@ -61,7 +71,8 @@ body{
 @keyframes breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-7px) scale(1.022)}}
 
 h1{
-  font-size:clamp(46px,11vw,104px);font-weight:800;letter-spacing:-.02em;line-height:1.06;
+  font-family:'Quicksand',"PingFang SC","HarmonyOS Sans SC",system-ui,sans-serif;
+  font-size:clamp(44px,10.5vw,100px);font-weight:700;letter-spacing:.005em;line-height:1.08;
   background:linear-gradient(100deg,var(--ink) 0%,var(--rose) 28%,var(--pink) 50%,var(--rose) 72%,var(--ink) 100%);
   background-size:220% 100%;
   -webkit-background-clip:text;background-clip:text;color:transparent;
