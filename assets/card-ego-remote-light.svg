@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="330" viewBox="0 0 780 330" fill="none">
+<defs>
+  <style>
+    @keyframes glowp { 0%,100%{opacity:.18} 50%{opacity:.42} }
+    @keyframes slide { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+    .gp { animation: glowp 3.6s ease-in-out infinite; }
+    .sl { animation: slide 4.8s ease-in-out infinite; transform-origin:center; }
+  </style>
+</defs>
+<rect width="780" height="330" rx="22" fill="#fffafc"/>
+<rect x="1" y="1" width="778" height="328" rx="22" fill="none" stroke="#f3c9d9" stroke-width="2"/>
+<g class="gp"><ellipse cx="86" cy="46" rx="96" ry="54" fill="#f599b8"/></g>
+<rect x="0" y="34" width="7" height="262" rx="4" fill="#f599b8"/>
+
+<g class="sl">
+  <text x="38" y="62" font-family="'SF Mono','JetBrains Mono','DejaVu Sans Mono',monospace" font-size="28" font-weight="700" fill="#f08fb0">02</text>
+  <text x="92" y="62" font-family="'SF Mono','JetBrains Mono','DejaVu Sans Mono',monospace" font-size="35" font-weight="700" fill="#52333f">dshgo-ego-remote</text>
+</g>
+<text x="38" y="106" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="27" font-weight="600" fill="#f08fb0">手机浏览器当远程桌面</text>
+<text x="38" y="150" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#a6798a">电脑/平板打开即用，走同一 WiFi。</text><text x="38" y="188" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#a6798a">WebSocket 二进制帧传画面，实测 54 fps。</text>
+<rect x="38" y="264" width="53" height="34" rx="17" fill="none" stroke="#f3c9d9"/><text x="64.5" y="287" text-anchor="middle" font-family="'SF Mono','JetBrains Mono','DejaVu Sans Mono',monospace" font-size="17" fill="#a6798a">cdp</text><rect x="102" y="264" width="119" height="34" rx="17" fill="none" stroke="#f3c9d9"/><text x="161.5" y="287" text-anchor="middle" font-family="'SF Mono','JetBrains Mono','DejaVu Sans Mono',monospace" font-size="17" fill="#a6798a">websocket</text><rect x="232" y="264" width="75" height="34" rx="17" fill="none" stroke="#f3c9d9"/><text x="269.5" y="287" text-anchor="middle" font-family="'SF Mono','JetBrains Mono','DejaVu Sans Mono',monospace" font-size="17" fill="#a6798a">54fps</text>
+</svg>
