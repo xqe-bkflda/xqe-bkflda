@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png">
-  <img alt="xqe-bkflda — 把手机变成 AI 的工作站" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png" width="100%">
+  <img alt="xqe-bkflda — 给 AI Agent 装上手脚" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png" width="100%">
 </picture>
 
 <br>
@@ -12,8 +12,8 @@
       <img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/avatar-round.png" width="76" alt="avatar">
     </td>
     <td valign="middle">
-      <b>把手机变成 AI 的工作站</b><br>
-      <sub>我没有电脑，只有手机。所以所有东西都得在手机上跑起来。</sub>
+      <b>给 AI Agent 装上手脚</b><br>
+      <sub>操控虚拟机 · 转发屏幕 · 挂载文件 —— 全在手机上完成。</sub>
     </td>
     <td width="230" valign="middle" align="right">
       <a href="https://github.com/xqe-bkflda/dsh-go-market"><img alt="插件市场" src="https://img.shields.io/badge/%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA-2A3B52?style=flat-square&logo=github&logoColor=white"></a>
@@ -80,7 +80,7 @@
 
 <br>
 
-## 我在折腾什么
+## 在做什么
 
 <table>
   <tr>
