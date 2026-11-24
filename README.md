@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/avatar.png" alt="avatar" width="96" height="96" style="border-radius:50%">
+  <img src="https://avatars.githubusercontent.com/u/207302734?v=4&s=200" alt="avatar" width="96" height="96" style="border-radius:50%">
 </p>
 
 <h3 align="center">把手机变成 AI 的工作站</h3>
