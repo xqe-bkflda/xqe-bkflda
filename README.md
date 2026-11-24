@@ -1,131 +1,152 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png">
+  <img alt="xqe-bkflda — 把手机变成 AI 的工作站" src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/banner-light.png" width="100%">
+</picture>
+
+<br>
+
+<table>
+  <tr>
+    <td width="86" valign="middle">
+      <img src="https://cdn.jsdelivr.net/gh/xqe-bkflda/xqe-bkflda@main/assets/avatar-round.png" width="72" alt="avatar">
+    </td>
+    <td valign="middle">
+      <b>把手机变成 AI 的工作站</b><br>
+      <sub>我没有电脑，只有手机。所以所有东西都得在手机上跑起来。</sub>
+    </td>
+    <td width="210" valign="middle" align="right">
+      <a href="https://github.com/xqe-bkflda/dsh-go-market"><img alt="插件市场" src="https://img.shields.io/badge/%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA-2A3B52?style=flat-square&logo=github&logoColor=white"></a>
+      <a href="https://github.com/xqe-bkflda/awesome-dsh-plugin"><img alt="插件精选" src="https://img.shields.io/badge/%E6%8F%92%E4%BB%B6%E7%B2%BE%E9%80%89-2A3B52?style=flat-square&logo=github&logoColor=white"></a>
+      <a href="https://github.com/xqe-bkflda?tab=repositories"><img alt="全部仓库" src="https://img.shields.io/badge/%E5%85%A8%E9%83%A8%E4%BB%93%E5%BA%93-2A3B52?style=flat-square&logo=github&logoColor=white"></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🧩 主要项目
+
+<table>
+  <tr>
+    <td width="50%" valign="top" style="border:1px solid #d0d7de;border-radius:6px;padding:14px;">
+      <b>🤖 dshgo-vmbridge</b><br>
+      <sub>让 AI 直接操控 AndVM 里的 Android 虚拟机</sub><br><br>
+      看屏幕、点按钮、敲键盘、跑 root shell、装 APK、截图 —— 通过 adb 驱动一台 Magisk root 的 Android 12。<br><br>
+      <a href="https://github.com/xqe-bkflda/dshgo-vmbridge"><img alt="vmbridge stars" src="https://img.shields.io/github/stars/xqe-bkflda/dshgo-vmbridge?style=flat-square&color=8FA5BA&label=stars"></a>
+      <a href="https://github.com/xqe-bkflda/dshgo-vmbridge/releases"><img alt="vmbridge release" src="https://img.shields.io/github/v/release/xqe-bkflda/dshgo-vmbridge?style=flat-square&color=8FA5BA&label=release"></a>
+    </td>
+    <td width="50%" valign="top" style="border:1px solid #d0d7de;border-radius:6px;padding:14px;">
+      <b>🪞 dshgo-ego-remote</b><br>
+      <sub>把手机里的浏览器页面转发成一张能看的网页</sub><br><br>
+      电脑/平板打开即用，走同一 WiFi。WebSocket 二进制帧传画面，实测 <b>54 fps</b>。<br><br>
+      <a href="https://github.com/xqe-bkflda/dshgo-ego-remote"><img alt="ego-remote stars" src="https://img.shields.io/github/stars/xqe-bkflda/dshgo-ego-remote?style=flat-square&color=8FA5BA&label=stars"></a>
+      <a href="https://github.com/xqe-bkflda/dshgo-ego-remote/releases"><img alt="ego-remote release" src="https://img.shields.io/github/v/release/xqe-bkflda/dshgo-ego-remote?style=flat-square&color=8FA5BA&label=release"></a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" style="border:1px solid #d0d7de;border-radius:6px;padding:14px;">
+      <b>📂 dshgo-dir-share</b><br>
+      <sub>工作区目录用 FTP / WebDAV 直接挂载</sub><br><br>
+      MT 管理器一键挂载读写。纯 Node 实现，<b>零第三方依赖</b>。<br><br>
+      <a href="https://github.com/xqe-bkflda/dshgo-dir-share"><img alt="dir-share stars" src="https://img.shields.io/github/stars/xqe-bkflda/dshgo-dir-share?style=flat-square&color=8FA5BA&label=stars"></a>
+      <a href="https://github.com/xqe-bkflda/dshgo-dir-share/releases"><img alt="dir-share release" src="https://img.shields.io/github/v/release/xqe-bkflda/dshgo-dir-share?style=flat-square&color=8FA5BA&label=release"></a>
+    </td>
+    <td valign="top" style="border:1px solid #d0d7de;border-radius:6px;padding:14px;">
+      <b>📶 netspeed</b><br>
+      <sub>Android 原生网络测速 + 内存悬浮球</sub><br><br>
+      下载/上传/延迟/抖动，独立进程省内存。<b>APK 69 KB</b>，无第三方依赖。<br><br>
+      <a href="https://github.com/xqe-bkflda/netspeed"><img alt="netspeed stars" src="https://img.shields.io/github/stars/xqe-bkflda/netspeed?style=flat-square&color=8FA5BA&label=stars"></a>
+      <a href="https://github.com/xqe-bkflda/netspeed/releases"><img alt="netspeed release" src="https://img.shields.io/github/v/release/xqe-bkflda/netspeed?style=flat-square&color=8FA5BA&label=release"></a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" style="border:1px solid #d0d7de;border-radius:6px;padding:14px;">
+      <b>🎵 aplayer-custom</b><br>
+      <sub>APlayer 二改版 · 接入网易云 / 酷狗在线音乐</sub><br><br>
+      听歌识曲、批量下载、歌词修复。Jetpack Compose 写的。<br><br>
+      <a href="https://github.com/xqe-bkflda/aplayer-custom"><img alt="aplayer stars" src="https://img.shields.io/github/stars/xqe-bkflda/aplayer-custom?style=flat-square&color=8FA5BA&label=stars"></a>
+      <a href="https://github.com/xqe-bkflda/aplayer-custom/releases"><img alt="aplayer release" src="https://img.shields.io/github/v/release/xqe-bkflda/aplayer-custom?style=flat-square&color=8FA5BA&label=release"></a>
+    </td>
+    <td valign="top" style="border:1px solid #d0d7de;border-radius:6px;padding:14px;">
+      <b>🧩 dsh-go-market</b><br>
+      <sub>DSH Go 插件目录 · 版本锁定 + 风险检查</sub><br><br>
+      给每个插件锁版本、跑自动化风险扫描。<br><br>
+      <a href="https://github.com/xqe-bkflda/dsh-go-market"><img alt="market stars" src="https://img.shields.io/github/stars/xqe-bkflda/dsh-go-market?style=flat-square&color=8FA5BA&label=stars"></a>
+      <a href="https://github.com/xqe-bkflda/awesome-dsh-plugin"><img alt="awesome list" src="https://img.shields.io/badge/%F0%9F%93%90%20awesome%20list-2A3B52?style=flat-square"></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🛠 我在折腾什么
+
+| 方向 | 内容 |
+|---|---|
+| **DSH Go 插件** | 给手机端的 AI Agent 装上手脚 —— 操控虚拟机、转发浏览器画面、挂载文件目录 |
+| **Android 原生小工具** | 纯 Java / Kotlin，无 Gradle、无 AndroidX，APK 越小越好 |
+| **Proot 生态** | 在手机里开一台有 root 的 Android 虚拟机（AndVM + Magisk） |
+| **零依赖工程** | 不用第三方包也能把事做完 —— FTP、WebDAV、CDP 客户端都是手写的 |
+
+<br>
+
+## 🧰 技术栈
+
 <div align="center">
-  <img src="assets/banner.png" alt="xqe-bkflda" width="100%">
-  <br><br>
-  <samp>
-    <a href="https://github.com/xqe-bkflda/dsh-go-market">插件市场</a> ·
-    <a href="https://github.com/xqe-bkflda/awesome-dsh-plugin">插件精选</a> ·
-    <a href="https://github.com/xqe-bkflda?tab=repositories">全部仓库</a>
-  </samp>
+
+<a href="https://developer.android.com"><img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"></a>
+<a href="https://kotlinlang.org"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"></a>
+<a href="https://openjdk.org"><img alt="Java" src="https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white"></a>
+<a href="https://nodejs.org"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white"></a>
+<a href="https://python.org"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
+<a href="https://developer.android.com/studio"><img alt="adb" src="https://img.shields.io/badge/adb-3DDC84?style=flat-square"></a>
+<a href="https://github.com/termux/proot-distro"><img alt="Proot" src="https://img.shields.io/badge/Proot-2A3B52?style=flat-square"></a>
+<a href="https://github.com/topjohnwu/Magisk"><img alt="Magisk" src="https://img.shields.io/badge/Magisk-4B0082?style=flat-square"></a>
+<a href="https://chromedevtools.github.io/devtools-protocol/"><img alt="CDP" src="https://img.shields.io/badge/CDP-4285F4?style=flat-square"></a>
+
 </div>
 
 <br>
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/207302734?v=4&s=200" alt="avatar" width="96" height="96" style="border-radius:50%">
-</p>
-
-<h3 align="center">把手机变成 AI 的工作站</h3>
-
-<p align="center">
-  手机上的 AI 工具链 · Android 小工具 · Proot 折腾流<br>
-  <sub>DSH Go 插件作者 · 让 AI 直接操控 Android 虚拟机、浏览器与文件</sub>
-</p>
-
-<br>
-
-## 我在做什么
-
-我没有电脑，只有手机。所以所有东西都得在手机上跑起来。
-
-- **DSH Go** 插件生态 —— 给手机端的 AI Agent 装上手脚：操控虚拟机、转发浏览器画面、挂载文件目录
-- **Android 原生小工具** —— 纯 Java / Kotlin，APK 越小越好，零第三方依赖
-- **Proot + adb + Magisk** —— 在手机里开一台有 root 的 Android 虚拟机
-
-## 主要项目
-
-<table>
-<tr><td width="50%" valign="top">
-
-**[dshgo-vmbridge](https://github.com/xqe-bkflda/dshgo-vmbridge)** · ★ AI 操控 Android 虚拟机
-
-让 AI 直接看屏幕、点按钮、敲键盘、跑 root shell、装 APK。
-通过 adb 驱动 AndVM 里的 Android 12。
-
-<sub>[查看 →](https://github.com/xqe-bkflda/dshgo-vmbridge)</sub>
-
-</td><td width="50%" valign="top">
-
-**[dshgo-ego-remote](https://github.com/xqe-bkflda/dshgo-ego-remote)** · ★ 手机浏览器当远程桌面
-
-把手机上正在跑的浏览器页面转发成一张能看能点的网页，
-电脑/平板打开即用，走同一 WiFi。实测 54 fps。
-
-<sub>[查看 →](https://github.com/xqe-bkflda/dshgo-ego-remote)</sub>
-
-</td></tr>
-<tr><td width="50%" valign="top">
-
-**[dshgo-dir-share](https://github.com/xqe-bkflda/dshgo-dir-share)** · ★ 工作区目录挂载到手机
-
-内置 FTP + WebDAV 服务端，MT 管理器直接挂载读写。
-纯 Node，零第三方依赖。
-
-<sub>[查看 →](https://github.com/xqe-bkflda/dshgo-dir-share)</sub>
-
-</td><td width="50%" valign="top">
-
-**[netspeed](https://github.com/xqe-bkflda/netspeed)** · ★ 网络测速 + 内存悬浮球
-
-纯 Java 无依赖，APK 69 KB。下载/上传/延迟/抖动，
-独立进程省内存。
-
-<sub>[查看 →](https://github.com/xqe-bkflda/netspeed)</sub>
-
-</td></tr>
-<tr><td width="50%" valign="top">
-
-**[aplayer-custom](https://github.com/xqe-bkflda/aplayer-custom)** · APlayer 二改版
-
-接入网易云 / 酷狗在线音乐、听歌识曲、批量下载。
-Jetpack Compose 写的安卓音乐播放器。
-
-<sub>[查看 →](https://github.com/xqe-bkflda/aplayer-custom)</sub>
-
-</td><td width="50%" valign="top">
-
-**[dsh-go-market](https://github.com/xqe-bkflda/dsh-go-market)** · DSH Go 插件市场
-
-带版本锁定与自动化风险检查的插件目录。
-
-<sub>[查看 →](https://github.com/xqe-bkflda/dsh-go-market)</sub>
-
-</td></tr>
-</table>
-
-## 技术栈
-
-<p>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/ADB-3DDC84?style=flat-square" alt="ADB">
-  <img src="https://img.shields.io/badge/Proot-2A3B52?style=flat-square" alt="Proot">
-  <img src="https://img.shields.io/badge/Magisk-4B0082?style=flat-square" alt="Magisk">
-</p>
-
-## 常用工具链
+## ⚡ 一行装上
 
 ```bash
-# 手机上开一台有 root 的 Android 虚拟机
-adb connect 127.0.0.1:<AndVM 调试端口>
-adb -s 127.0.0.1:<端口> shell "su -c id"
+# 让 AI 操控 Android 虚拟机
+curl -fsSL https://raw.githubusercontent.com/xqe-bkflda/dshgo-vmbridge/main/install.sh | sh
 
-# 装 DSH Go 插件
-dsh plugin --profile web add "$DSH_HOME/dsh-go/plugins/local-vmbridge"
+# 把手机浏览器变成可点的网页
+curl -fsSL https://raw.githubusercontent.com/xqe-bkflda/dshgo-ego-remote/main/install.sh | sh
 
-# 无 Gradle 出 APK
-./build.sh .
+# 工作区目录挂到 MT 管理器
+curl -fsSL https://raw.githubusercontent.com/xqe-bkflda/dshgo-dir-share/main/install.sh | sh
 ```
-
-## 联系
-
-- GitHub Issues —— 提 bug 和需求，最快
-- 插件问题先看各仓库 README 的「前置条件」和「常见问题」
 
 <br>
 
-<p align="center">
-  <sub>用 <a href="https://github.com/xqe-bkflda/dsh-go-market">DSH Go</a> 在手机上折腾。</sub>
-</p>
+## 📬 找到我
+
+<table>
+  <tr>
+    <td width="150" valign="middle"><b>提 Issue</b></td>
+    <td valign="middle"><sub>装不上、报错、想要新功能 —— 最快的通道</sub></td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Discussions</b></td>
+    <td valign="middle"><sub>怎么用、方案讨论、踩坑求助</sub></td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>参与贡献</b></td>
+    <td valign="middle"><sub>每个仓库都埋了 <code>good first issue</code>，从那里开始最容易</sub></td>
+  </tr>
+</table>
+
+<br>
+
+<div align="center">
+  <sub>
+    用 <a href="https://github.com/xqe-bkflda/dsh-go-market">DSH Go</a> 在手机上折腾 ·
+    <a href="https://github.com/xqe-bkflda?tab=followers">Follow</a> ·
+    <a href="https://github.com/xqe-bkflda?tab=stars">Starred</a>
+  </sub>
+</div>
